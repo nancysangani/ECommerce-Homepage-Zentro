@@ -40,12 +40,16 @@
   height: 65px;
   width: 100%;
 }
+.logo:hover {
+  cursor: pointer;
+}
 .border {
   border: 2px solid transparent;
   transition: border 0.3s ease;
 }
 .border:hover {
   border: 2px solid var(--color-white);
+  cursor: pointer;
 }
 
 /** Box 2 **/
