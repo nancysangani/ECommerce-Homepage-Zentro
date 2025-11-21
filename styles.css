@@ -486,16 +486,20 @@ h3 {
   gap: 10px;
 }
 
-.country {
-  color: var(--color-white);
+.country-container {
   border: solid 1px var(--color-grey-border);
   border-radius: 3px;
-  text-decoration: none;
   display: flex;
   width: 90px;
   height: 27px;
+  gap: 10px;
   align-items: center;
   justify-content: center;
+}
+
+.country {
+  color: var(--color-white);
+  text-decoration: none;
 }
 
 .end {
